@@ -1,0 +1,46 @@
+# Built APKs and build output
+*.apk
+*.aab
+*.ap_
+*.dex
+app/build/
+build/
+.gradle/
+
+# Local configuration (contains SDK path)
+local.properties
+
+# Firebase / Security - NEVER commit these
+app/google-services.json
+*.jks
+*.keystore
+release.properties
+signing.properties
+
+# IDE
+.idea/
+*.iml
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+*.hprof
+
+# Native
+*.so
+*.o
+
+# Gradle
+.gradle/
+gradle-app.setting
+!gradle-wrapper.jar
+!gradle-wrapper.properties
+
+# Kotlin
+*.kotlin_module
+
+# Environment / Secrets
+.env
+.env.*
+secrets/

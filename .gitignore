@@ -1,0 +1,43 @@
+# Built APKs, bundles, and build outputs
+*.apk
+*.aab
+*.ap_
+*.dex
+**/build/
+build/
+.gradle/
+**/.gradle/
+
+# Local configuration (Android SDK paths)
+**/local.properties
+local.properties
+
+# Firebase / Secrets / Credentials - NEVER commit to git
+**/google-services.json
+*.jks
+*.keystore
+release.properties
+signing.properties
+
+# Environment and secrets
+.env
+.env.*
+secrets/
+
+# IDE & OS
+.idea/
+**/.idea/
+*.iml
+**/*.iml
+.DS_Store
+Thumbs.db
+
+# Logs and cache
+*.log
+*.hprof
+.kotlin/
+**/.kotlin/
+
+# Native libraries generated
+*.so
+*.o

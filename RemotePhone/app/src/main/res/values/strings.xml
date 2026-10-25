@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">RemotePhone</string>
+    
+    <!-- Accessibility Service -->
+    <string name="accessibility_service_description">RemotePhone uses this service to remotely control your device. It enables touch injection, gesture dispatch, screen capture, and system navigation when controlled by a paired device.</string>
+    
+    <!-- Pairing -->
+    <string name="pairing_title">Pair Devices</string>
+    <string name="generate_code">Generate Code</string>
+    <string name="enter_code">Enter Code</string>
+    <string name="pairing_code_hint">Enter 6-digit code</string>
+    <string name="pairing_success">Devices paired successfully!</string>
+    <string name="pairing_expired">Code expired. Generate a new one.</string>
+    <string name="pairing_invalid">Invalid code. Please try again.</string>
+    
+    <!-- Home -->
+    <string name="start_mirroring">Start Mirroring</string>
+    <string name="stop_mirroring">Stop Mirroring</string>
+    <string name="device_online">Online</string>
+    <string name="device_offline">Offline</string>
+    <string name="not_paired">No device paired</string>
+    
+    <!-- Mirror -->
+    <string name="connecting">Connecting…</string>
+    <string name="connected">Connected</string>
+    <string name="disconnected">Disconnected</string>
+    <string name="reconnecting">Reconnecting…</string>
+    <string name="mirror_notification_title">Screen sharing active</string>
+    <string name="mirror_notification_text">Your screen is being shared with %s</string>
+    
+    <!-- Commands -->
+    <string name="cmd_open_app">Open App</string>
+    <string name="cmd_screenshot">Screenshot</string>
+    <string name="cmd_battery">Battery</string>
+    <string name="cmd_location">Location</string>
+    <string name="cmd_ring">Ring Phone</string>
+    <string name="cmd_notifications">Notifications</string>
+    <string name="cmd_lock">Lock Screen</string>
+    <string name="cmd_clipboard">Clipboard</string>
+    
+    <!-- Setup Wizard -->
+    <string name="setup_title">Setup Required</string>
+    <string name="setup_restricted_settings">Allow Restricted Settings</string>
+    <string name="setup_restricted_settings_desc">Go to App Info → ⋮ menu → \"Allow restricted settings\" and confirm with your PIN.</string>
+    <string name="setup_accessibility">Enable Accessibility Service</string>
+    <string name="setup_accessibility_desc">Settings → Accessibility → RemotePhone → Enable</string>
+    <string name="setup_notification_access">Enable Notification Access</string>
+    <string name="setup_notification_access_desc">Settings → Special App Access → Notification Access → Enable for RemotePhone</string>
+    <string name="setup_overlay">Enable Draw Over Other Apps</string>
+    <string name="setup_overlay_desc">Settings → Special App Access → Display over other apps → Enable for RemotePhone</string>
+    <string name="setup_battery">Disable Battery Optimization</string>
+    <string name="setup_battery_desc">Settings → Battery → RemotePhone → Unrestricted</string>
+    <string name="setup_open_settings">Open Settings</string>
+    <string name="setup_check">Check</string>
+    <string name="setup_complete">All permissions granted! You\'re ready to go.</string>
+    
+    <!-- Notifications -->
+    <string name="command_notification_channel">Command Service</string>
+    <string name="mirror_notification_channel">Screen Mirroring</string>
+    
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_video_quality">Video Quality</string>
+    <string name="settings_max_fps">Max FPS</string>
+    <string name="settings_auto_reconnect">Auto Reconnect</string>
+    <string name="settings_unpair">Unpair Device</string>
+    <string name="settings_about">About</string>
+</resources>
